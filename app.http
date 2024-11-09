@@ -1,0 +1,38 @@
+GET http://localhost:3000/players/
+//Returns a list of all the players in the player table
+
+###
+
+GET http://localhost:3000/players/2/
+//Returns a specific player based on the player ID
+
+###
+PUT http://localhost:3000/players/3/
+//Updates the details of a specific player based on the player ID
+    {
+      "playerName": "Raju"
+    }
+
+###
+
+GET http://localhost:3000/matches/6/
+//Returns the match details of a specific match
+
+###
+
+GET http://localhost:3000/players/6/matches/
+//Returns the match details of a specific match
+
+###
+
+GET http://localhost:3000/matches/4/players/
+//Returns a list of players of a specific match
+
+###
+
+GET http://localhost:3000/players/1/playerScores/
+//Returns the statistics of the total score, fours, sixes of a specific player based on the player ID
+
+###
+
+
