@@ -9,10 +9,11 @@ GET http://localhost:3000/players/2/
 ###
 
 PUT http://localhost:3000/players/3/
+Content-Type: application/json
 //Updates the details of a specific player based on the player ID
-    {
-      "playerName": "Raju"
-    }
+{
+  "playerName": "Raju"
+}
 
 ###
 
